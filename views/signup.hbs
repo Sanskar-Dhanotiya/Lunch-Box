@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="css/style12.css">
+    <script src="js/validate.js"></script>
+</head>
+<body>
+    <div class="outerbox">
+    <div class="innerbox">
+        <div class="main">
+            <img src="assets/Screenshot_2023-02-17_at_3.52.01_AM-removebg-preview.png" alt="" srcset="">
+        </div>
+        <header class="signup">
+            <h1>Registration <i class="fa-solid fa-registered fa-bounce fa-xs"></i></h1>
+            <p>It Just Take 30 Second</p>
+            <img src="assets/logo.svg" alt="" srcset="">
+        </header>
+        <main class="signup-body">
+            <form action="/reg"  method="post" onsubmit="return Validate()">
+<p>
+    <label for="FName">Full Name</label>
+    <input type="text" name="FName" id="FName" placeholder="Sanskar Dhanotiya" required>
+</p>
+<p>
+    <label for="Email">Your Email</label>
+    <input type="email" name="Email" id="Email" placeholder="sanskardhanotiya108@gmail.com" required>
+</p>
+<p>
+    <label for="Pass">Your Mobile No.</label>
+    <input type="string" name="Pass" id="Pass" placeholder="Exact 10 Character" required>
+</p>
+<p>
+    <input type="submit" id="submit" value="Create Account">
+</p>
+           </form> 
+        </main>
+    <footer class="signup-footer">
+<p>Already Have An Registration?</p>
+    <p><a href="/payment">Renew Your Registration</a></p>
+        </footer>
+    </div>
+    <div class="circle c1"></div>
+    <div class="circle c2"></div>
+</div>
+<script src="https://kit.fontawesome.com/e44ab2ef2b.js" crossorigin="anonymous"></script> 
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer-Map</title>
+    <style>
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+.map{
+    width: 100vw;
+    height: 100vh;
+    /* border: 1px solid black;
+    border-radius: 16px;
+    box-shadow: 2px 2px 5px black;*/
+    object-fit: fill;
+    z-index: -1;
+    position: absolute;
+  
+}
+.img{
+    position: absolute;
+    z-index: 1;
+    width: 15%;
+    bottom: 10%;
+    left: 1.5%;
+  transition: 1s ease-in-out;
+  animation: hithere 2s ease infinite;
+}
+
+@keyframes hithere {
+  30% { transform: scale(1.2); }
+  40%, 60% { transform: rotate(-20deg) scale(1.2); }
+  50% { transform: rotate(20deg) scale(1.2); }
+  70% { transform: rotate(0deg) scale(1.2); }
+  100% { transform: scale(1); }
+}
+    
+
+
+    </style>
+</head>
+<body>
+    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1VItJzPqqFJB8kz5xkL4KV4Ccfq1hiME&ehbc=2E312F" class="map"></iframe>
+    <img src="assets/astronaut-removebg-preview.png" class="img">
+</body>
+</html>

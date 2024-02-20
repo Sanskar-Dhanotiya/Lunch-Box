@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/feedback.css">
+    <script src="js/validate1.js"></script>
+    <title>Feedback</title>
+</head>
+<body>
+    <div class="container">
+    <div class="nav">
+        <div class="sec">
+        <div class="logo">
+            <i class="fa-solid fa-square-phone fa-2xl" style="color: #6b63ff;"></i>
+        </div>
+        <p>Phone:- 7806073639</p>
+    </div>
+    <div class="sec">
+        <div class="logo">
+            <i class="fa-solid fa-paper-plane fa-2xl" style="color: #6b63ff;"></i>
+        </div>
+        <p>Email:- sanskardhanotiya108@gmail.com</p>
+    </div>
+    <div class="sec">
+        <div class="logo">
+            <i class="fa-solid fa-location-dot fa-2xl" style="color: #6b63ff;"></i>
+        </div>
+        <p>Address:- NIT-T,Thuvakudi</p>
+    </div>
+    </div>
+   
+     <div class="outerbox">
+
+        <div class="content-box">
+     <h1 >Your FeedBack <br>Motivates Us!</h1>
+     <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi officiis natus repellendus corrupti id, voluptatem ducimus cum eveniet, nisi voluptates nostrum exercitationem molestiae enim distinctio laborum, quod facere. Error, at!</p>
+     <img src="assets/contact.svg" alt="">
+        </div>
+
+    <div class="innerbox">
+        <header class="feedback">
+            <h1>Feedback </h1>
+            <p>It Just Take 60 Second</p>
+        </header>
+        <main class="feedback-body">
+           <form action="/feedback" method="post" onsubmit="return validate1()">
+<p>
+    <label for="Full Name">Full Name</label>
+    <input type="text" name="fname" id="Full-Name" placeholder="Sanskar Dhanotiya" required>
+</p>
+<p>
+    <label for="Email">Your Email</label>
+    <input type="email" name="email" id="Email" placeholder="sanskardhanotiya108@gmail.com" required>
+</p>
+<p>
+    <label for="mobile">Your Mobile No.</label>
+    <input type="text" name="mobile" id="Mobile" placeholder="Atleast 10 character" required>
+</p>
+<p>
+    <label for="feedback">Your Feedback Please</label>
+   <textarea name="feedback" id="feedback" cols="45" rows="10" required></textarea>
+</p>
+<p>
+    <input type="submit" id="submit" value="Feedback Submission">
+</p>
+           </form> 
+        </main>
+    <footer class="feedback-footer">
+        <div class="foot">
+<p>Have Any Questions?</p>
+    <p><a href="/satisfaction">FAQ's</a></p>
+     </div>
+        </footer>
+       
+    </div>
+</div>
+</div>
+<script src="https://kit.fontawesome.com/e44ab2ef2b.js" crossorigin="anonymous"></script>  
+</body>
+</html>
